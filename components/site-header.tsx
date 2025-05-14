@@ -29,6 +29,12 @@ export function SiteHeader() {
         >
           FAQ
         </Link>
+        <Link
+          href="/try"
+          className="text-sm font-medium text-slate-700 transition-colors hover:text-purple-600 dark:text-slate-300 dark:hover:text-purple-400"
+        >
+          Try REMedy
+        </Link>
       </nav>
     </header>
   )
