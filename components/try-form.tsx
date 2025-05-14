@@ -10,8 +10,9 @@ import { Label } from "@/components/ui/label"
 import { Textarea } from "@/components/ui/textarea"
 import { Select, SelectContent, SelectItem, SelectTrigger, SelectValue } from "@/components/ui/select"
 
-// Updated Google Apps Script URL
-const GOOGLE_SCRIPT_URL = "https://script.google.com/macros/s/AKfycbyCKAdNLtylMHEe1ieDitns-zJN01OXqOGWiTn-Tgs/dev"
+// Updated Google Apps Script URL with production deployment
+const GOOGLE_SCRIPT_URL =
+  "https://script.google.com/macros/s/AKfycbyHxFVJSPJwUet6Rx2M9cp4VwouDC3ST0rzgbpCwnNbjkSfQ_4wBE4BXWqEbw0m6MtW/exec"
 
 export function TryForm() {
   const [isSubmitting, setIsSubmitting] = useState(false)
