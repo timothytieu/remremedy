@@ -82,7 +82,7 @@ export default function TryPage() {
               The sleep suggestions we offer are based on your input and general sleep science, they're meant to
               support, not replace, professional guidance. While AI models will be used to generate your personalized
               plan, your data will never be sold without your consent, and all personally identifiable information will
-              be deleted after the experiment concludes.
+              be deleted after the beta test concludes.
             </p>
           </div>
         </main>
