@@ -51,13 +51,13 @@ export default function TryPage() {
                 }
                 @media (max-width: 768px) {
                   .asana-embed-iframe {
-                    min-height: 3000px; /* Even taller on mobile */
+                    min-height: 2000px; /* Even taller on mobile */
                   }
                 }
               `}</style>
               <iframe
                 className="asana-embed-iframe"
-                height="2500"
+                height="2000"
                 src="https://form.asana.com/?k=yk-QzjmWy2UAs5UKr5KSUQ&d=1210267651296430&embed=true"
                 frameBorder="0"
                 scrolling="no"
