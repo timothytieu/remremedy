@@ -75,6 +75,16 @@ export default function TryPage() {
               </div>
             </div>
           </div>
+
+          <div className="mx-auto mt-8 max-w-4xl text-center">
+            <p className="text-xs text-slate-500 dark:text-slate-400 leading-relaxed">
+              REMedy is an early-stage wellness offering, not a provider of medical advice or clinical sleep treatment.
+              The sleep suggestions we offer are based on your input and general sleep science, they're meant to
+              support, not replace, professional guidance. While AI models will be used to generate your personalized
+              plan, your data will never be sold without your consent, and all personally identifiable information will
+              be deleted after the experiment concludes.
+            </p>
+          </div>
         </main>
 
         <SiteFooter />
