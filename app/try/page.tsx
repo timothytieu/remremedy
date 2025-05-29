@@ -25,7 +25,7 @@ export default function TryPage() {
                   width: 100%;
                   max-width: 100%;
                   background-color: white;
-                  min-height: 2500px; /* Much taller to show the entire form */
+                  min-height: 1800px; /* Much taller to show the entire form */
                 }
                 .asana-embed-footer {
                   display: flex;
@@ -51,13 +51,13 @@ export default function TryPage() {
                 }
                 @media (max-width: 768px) {
                   .asana-embed-iframe {
-                    min-height: 2000px; /* Even taller on mobile */
+                    min-height: 1800px; /* Even taller on mobile */
                   }
                 }
               `}</style>
               <iframe
                 className="asana-embed-iframe"
-                height="2000"
+                height="1800"
                 src="https://form.asana.com/?k=yk-QzjmWy2UAs5UKr5KSUQ&d=1210267651296430&embed=true"
                 frameBorder="0"
                 scrolling="no"
